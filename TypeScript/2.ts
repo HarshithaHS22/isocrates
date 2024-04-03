@@ -1,3 +1,4 @@
+// String Example in TS
 let message1: string="Hello World";
 console.log(message1);
 let heading = document.createElement('h1');
