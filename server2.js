@@ -15,7 +15,7 @@ const server = http.createServer((req, res) => {
             path += 'about.html';
             break;
         case '/aboutus':
-            res.statusCode = 301;
+            res.statusCode = 301;    //Redirection Status Code = 301
             res.setHeader('Location', '/about')
             res.end();
 
